@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body, button, html, input, select {
+      font-family: "Microsoft JhengHei";
+  }
+  
+  .btn:hover {
+      cursor: pointer;
+  }
+  
+  tbody td {
+      text-align: right;
+  }

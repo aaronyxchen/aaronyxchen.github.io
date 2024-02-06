@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="home" class="jumbotron jumbotron-pyone">
+      <div class="container">
+          <h1>Power Table</h1>
+          <p class="lead">數的次方</p>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="row mt-4">
+          <div class="col-lg-10">
+              <div id="divPowerTable">
+                  <table class="table table-striped">
+                      <thead class="table-dark text-center">
+                          <tr>
+                              <th>整數</th>
+                              <th>2次方</th>
+                              <th>3次方</th>
+                              <th>4次方</th>
+                              <th>5次方</th>
+                          </tr>
+                      </thead>
+                      <tbody id="tabPower" class="text-right"></tbody>
+                  </table>
+              </div>
+          </div>
+          <div class="col-lg-2">
+              <label for="txtStart" class="fw-bold">起始數</label>
+              <input type="number" id="txtStart" class="form-control mb-3" value="2" placeholder="起始數" onfocus="select()">
+              <button type="button" class="btn btn-lg btn-primary" onclick="powerTable()">列表</button>
+          </div>
+      </div>
+
+      <hr class="footer-hr">
+      <footer>
+          <p>&copy; 2023</p>
+          
+      </footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

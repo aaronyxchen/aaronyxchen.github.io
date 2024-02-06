@@ -1,0 +1,32 @@
+body, button, html, input, select {
+    font-family: Consolas, "Microsoft JhengHei";
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.cart {
+    border: solid 1px #ced4da;
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart .item {
+    text-align: center;
+    width: 160px;
+    height: 120px;
+    margin: 5px;
+}
+
+.cart .item .fruit {
+    font-size: 48px;
+    width: 120px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #333;
+    margin: 10px;
+    border-radius: 3px;
+}
